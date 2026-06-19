@@ -1,0 +1,57 @@
+<svg width="600" height="450" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de ambiente antes da limpeza">
+  <rect width="600" height="450" fill="#D9D2C7"/>
+  <rect x="0" y="300" width="600" height="150" fill="#B9AFA0"/>
+  <rect x="0" y="296" width="600" height="8" fill="#A89C8C"/>
+
+  <!-- janela embaçada -->
+  <rect x="380" y="40" width="160" height="180" rx="4" fill="#9FB3B1" stroke="#7C8F8D" stroke-width="8"/>
+  <rect x="376" y="126" width="168" height="8" fill="#7C8F8D"/>
+  <rect x="456" y="36" width="8" height="188" fill="#7C8F8D"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="10" stroke-linecap="round">
+    <line x1="390" y1="70" x2="445" y2="115"/>
+    <line x1="470" y1="60" x2="530" y2="150"/>
+    <line x1="400" y1="170" x2="450" y2="205"/>
+  </g>
+
+  <!-- teia de aranha no canto -->
+  <g stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.4" fill="none">
+    <path d="M0 0 Q 30 10 40 40"/>
+    <path d="M0 0 Q 18 22 8 46"/>
+    <path d="M0 0 Q 36 4 46 24"/>
+    <path d="M8 46 Q 24 30 40 40"/>
+  </g>
+
+  <!-- armário com bagunça -->
+  <rect x="60" y="260" width="140" height="70" rx="6" fill="#8B7E6E"/>
+  <rect x="60" y="320" width="140" height="10" fill="#756A5A"/>
+  <rect x="78" y="234" width="46" height="30" rx="3" fill="#C9C2B2" stroke="#A89C8C" stroke-width="2" transform="rotate(-6 101 249)"/>
+  <rect x="118" y="240" width="38" height="24" rx="3" fill="#BDB6A4" stroke="#A89C8C" stroke-width="2" transform="rotate(8 137 252)"/>
+
+  <!-- planta murcha -->
+  <rect x="168" y="232" width="20" height="28" rx="3" fill="#8C9270"/>
+  <path d="M178 232 C160 210 150 198 150 188 C150 198 168 210 178 232 Z" fill="#8C9270"/>
+  <path d="M178 232 C196 214 204 200 202 190 C200 200 184 212 178 232 Z" fill="#7C8366"/>
+
+  <!-- tapete manchado -->
+  <ellipse cx="300" cy="400" rx="160" ry="38" fill="#9C8468"/>
+  <ellipse cx="345" cy="404" rx="34" ry="15" fill="#6E5B45" opacity="0.6"/>
+
+  <!-- poeira / sujeira espalhada -->
+  <g fill="#8A8275" opacity="0.55">
+    <circle cx="90" cy="60" r="3"/>
+    <circle cx="140" cy="120" r="2.4"/>
+    <circle cx="250" cy="50" r="2.8"/>
+    <circle cx="320" cy="180" r="2.2"/>
+    <circle cx="60" cy="200" r="2.6"/>
+    <circle cx="500" cy="260" r="2.4"/>
+    <circle cx="220" cy="330" r="3"/>
+    <circle cx="430" cy="350" r="2.6"/>
+    <circle cx="160" cy="370" r="2.2"/>
+  </g>
+
+  <!-- riscos no piso -->
+  <g stroke="#9C9080" stroke-width="3" stroke-linecap="round" opacity="0.5">
+    <line x1="420" y1="380" x2="470" y2="392"/>
+    <line x1="80" y1="420" x2="140" y2="412"/>
+  </g>
+</svg>

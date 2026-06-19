@@ -1,0 +1,6 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Foto da responsável pelo atendimento (placeholder)">
+  <rect width="320" height="320" rx="28" fill="#CFF4EE"/>
+  <circle cx="160" cy="128" r="54" fill="#0F3B5C" opacity="0.85"/>
+  <path d="M160 196 C95 196 56 228 50 280 L270 280 C264 228 225 196 160 196 Z" fill="#0F3B5C" opacity="0.85"/>
+  <rect width="320" height="320" rx="28" fill="none" stroke="#3FD3C0" stroke-width="4"/>
+</svg>

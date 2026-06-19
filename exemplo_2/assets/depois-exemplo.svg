@@ -1,0 +1,50 @@
+<svg width="600" height="450" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de ambiente depois da limpeza">
+  <defs>
+    <linearGradient id="floorGrad" x1="0" y1="300" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E3F3F2"/>
+      <stop offset="1" stop-color="#CCEEE8"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="380" y1="40" x2="540" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8FBFA"/>
+      <stop offset="1" stop-color="#BFEFF0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="#F2FBFB"/>
+  <rect x="0" y="300" width="600" height="150" fill="url(#floorGrad)"/>
+  <rect x="0" y="296" width="600" height="8" fill="#BFE9E3"/>
+
+  <!-- janela limpa e brilhante -->
+  <rect x="380" y="40" width="160" height="180" rx="4" fill="url(#glassGrad)" stroke="#0F3B5C" stroke-width="8"/>
+  <rect x="376" y="126" width="168" height="8" fill="#0F3B5C"/>
+  <rect x="456" y="36" width="8" height="188" fill="#0F3B5C"/>
+  <polygon points="392,60 412,60 380,150 368,150" fill="#FFFFFF" opacity="0.55"/>
+
+  <!-- armário limpo e organizado -->
+  <rect x="60" y="260" width="140" height="70" rx="6" fill="#FFFFFF" stroke="#BFE9E3" stroke-width="3"/>
+  <rect x="60" y="320" width="140" height="10" fill="#CFF4EE"/>
+  <rect x="76" y="246" width="50" height="14" rx="4" fill="#FFFFFF" stroke="#CFF4EE" stroke-width="2"/>
+
+  <!-- planta viçosa -->
+  <rect x="168" y="234" width="20" height="26" rx="3" fill="#0F3B5C"/>
+  <path d="M178 234 C158 208 148 192 148 180 C150 196 168 208 178 234 Z" fill="#3FD3C0"/>
+  <path d="M178 234 C198 212 208 196 206 184 C204 198 186 210 178 234 Z" fill="#2BB7A8"/>
+  <path d="M178 234 C176 204 178 188 184 176 C180 192 180 210 178 234 Z" fill="#5EE0CF"/>
+
+  <!-- tapete limpo -->
+  <ellipse cx="300" cy="400" rx="160" ry="38" fill="#0F3B5C"/>
+  <ellipse cx="300" cy="400" rx="118" ry="26" fill="none" stroke="#3FD3C0" stroke-width="4"/>
+
+  <!-- brilho de limpo no piso -->
+  <polygon points="380,300 460,300 360,420 300,420" fill="#FFFFFF" opacity="0.18"/>
+
+  <!-- brilhos / estrelinhas de limpeza -->
+  <g fill="#3FD3C0">
+    <path d="M120 70 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z"/>
+    <path d="M520 250 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 Z"/>
+    <path d="M70 360 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 Z"/>
+  </g>
+  <g fill="#FFFFFF">
+    <path d="M460 60 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5 Z"/>
+  </g>
+</svg>

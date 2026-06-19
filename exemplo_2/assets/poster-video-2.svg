@@ -1,0 +1,15 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vídeo antes e depois: limpeza de escritórios e ambientes comerciais">
+  <defs>
+    <linearGradient id="bgGrad2" x1="640" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F3B5C"/>
+      <stop offset="1" stop-color="#2E9BD6"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bgGrad2)"/>
+  <circle cx="80" cy="70" r="110" fill="#3FD3C0" opacity="0.12"/>
+  <circle cx="600" cy="300" r="90" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="320" cy="160" r="46" fill="#FFFFFF" opacity="0.92"/>
+  <path d="M308 142 L308 178 L338 160 Z" fill="#0F3B5C"/>
+  <text x="60" y="280" font-family="Sora, Arial, sans-serif" font-weight="600" font-size="14" letter-spacing="2" fill="#3FD3C0">ANTES &amp; DEPOIS</text>
+  <text x="60" y="312" font-family="Sora, Arial, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF">Limpeza de escritórios</text>
+</svg>

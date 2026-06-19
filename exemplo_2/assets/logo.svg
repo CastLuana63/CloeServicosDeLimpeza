@@ -1,0 +1,11 @@
+<svg width="190" height="56" viewBox="0 0 190 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cloe Serviços de Limpeza">
+  <defs>
+    <linearGradient id="dropGrad" x1="28" y1="4" x2="28" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F3B5C"/>
+      <stop offset="1" stop-color="#3FD3C0"/>
+    </linearGradient>
+  </defs>
+  <path d="M28 5 C40 20, 48 32, 48 38 A20 20 0 1 1 8 38 C8 32, 16 20, 28 5 Z" fill="url(#dropGrad)"/>
+  <ellipse cx="21" cy="24" rx="4.2" ry="6" fill="#FFFFFF" opacity="0.45"/>
+  <text x="64" y="38" font-family="Sora, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="0.2" fill="#0F3B5C">Cloe</text>
+</svg>
