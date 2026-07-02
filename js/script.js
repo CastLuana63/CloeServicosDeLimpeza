@@ -1,29 +1,17 @@
-/* =========================================================
-   CLOE SERVIÇOS DE LIMPEZA — SCRIPT PRINCIPAL
-   =========================================================
-   IMPORTANTE PARA QUEM FOR DAR MANUTENÇÃO:
-   Quase todas as informações de contato (WhatsApp, telefone,
-   e-mail, Instagram, Facebook, endereço e horário) ficam
-   centralizadas no objeto CONFIG abaixo. Troque os valores
-   aqui e o site inteiro é atualizado automaticamente —
-   não é preciso editar o HTML.
-   ========================================================= */
-
 const CONFIG = {
-  // Apenas números, com código do país (55) e DDI (16): ex. 5516999998888
-  whatsappNumber: '5516990000000',
+  whatsappNumber: '5516994260894',
   whatsappMessage: 'Olá! Vim pelo site da Cloe e gostaria de saber mais sobre os serviços de limpeza.',
 
-  instagramUrl: 'https://instagram.com/cloelimpeza',
+  instagramUrl: 'https://www.instagram.com/cloeservicosdelimpeza',
   facebookUrl: 'https://facebook.com/cloelimpeza',
 
-  displayPhone: '(16) 99999-9999',
-  telLink: 'tel:+5516999999999',
+  displayPhone: '(16) 99426-0894',
+  telLink: 'tel:+5516994260894',
 
   email: 'contato@cloelimpeza.com.br',
 
   address: 'Ribeirão Preto - SP e região',
-  hours: 'Segunda a sábado, das 8h às 18h',
+  hours: 'Segunda a sábado, das 7h às 22h',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -38,9 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initCompareSliders();
 });
 
-/* ---------------------------------------------------------
-   Preenche links e textos a partir do objeto CONFIG
---------------------------------------------------------- */
 function applyConfig() {
   const waText = encodeURIComponent(CONFIG.whatsappMessage);
   const waUrl = `https://wa.me/${CONFIG.whatsappNumber}?text=${waText}`;
@@ -77,9 +62,6 @@ function setCurrentYear() {
   if (el) el.textContent = new Date().getFullYear();
 }
 
-/* ---------------------------------------------------------
-   Header: muda a aparência ao rolar a página
---------------------------------------------------------- */
 function initHeaderScroll() {
   const header = document.querySelector('[data-header]');
   if (!header) return;
@@ -91,9 +73,6 @@ function initHeaderScroll() {
   window.addEventListener('scroll', update, { passive: true });
 }
 
-/* ---------------------------------------------------------
-   Menu mobile (abre/fecha o painel de navegação)
---------------------------------------------------------- */
 function initMobileNav() {
   const toggle = document.querySelector('[data-nav-toggle]');
   const nav = document.querySelector('[data-header-nav]');
@@ -126,9 +105,6 @@ function initMobileNav() {
   });
 }
 
-/* ---------------------------------------------------------
-   Slider de texto rotativo no hero ("Levamos cuidado para:")
---------------------------------------------------------- */
 function initHeroSlider() {
   const track = document.querySelector('[data-hero-slider]');
   if (!track) return;
@@ -147,9 +123,6 @@ function initHeroSlider() {
   }, 2400);
 }
 
-/* ---------------------------------------------------------
-   Animação de revelação ao rolar a página
---------------------------------------------------------- */
 function initScrollReveal() {
   const items = document.querySelectorAll('[data-reveal]');
   if (!items.length) return;
@@ -171,9 +144,6 @@ function initScrollReveal() {
   items.forEach((el) => observer.observe(el));
 }
 
-/* ---------------------------------------------------------
-   Carrossel de vídeos (rolagem horizontal com setas e pontos)
---------------------------------------------------------- */
 function initVideoCarousels() {
   document.querySelectorAll('[data-carousel]').forEach((carousel) => {
     const track = carousel.querySelector('[data-carousel-track]');
@@ -183,7 +153,6 @@ function initVideoCarousels() {
     const dotsWrap = carousel.parentElement.querySelector('[data-carousel-dots]');
     if (!track || !slides.length) return;
 
-    // Cria os pontos indicadores
     let dots = [];
     if (dotsWrap) {
       dotsWrap.innerHTML = '';
@@ -235,10 +204,6 @@ function initVideoCarousels() {
   });
 }
 
-/* ---------------------------------------------------------
-   Mostra um aviso amigável quando o arquivo de vídeo
-   ainda não foi adicionado em assets/video/
---------------------------------------------------------- */
 function initVideoFallbacks() {
   document.querySelectorAll('[data-video-frame]').forEach((frame) => {
     const video = frame.querySelector('.video-el');
@@ -252,9 +217,6 @@ function initVideoFallbacks() {
   });
 }
 
-/* ---------------------------------------------------------
-   Comparador de fotos antes/depois (arrastar para revelar)
---------------------------------------------------------- */
 function initCompareSliders() {
   document.querySelectorAll('[data-compare]').forEach((wrapper) => {
     const frame = wrapper.querySelector('[data-compare-frame]');
