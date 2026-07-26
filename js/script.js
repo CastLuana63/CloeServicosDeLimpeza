@@ -3,7 +3,7 @@ const CONFIG = {
   whatsappMessage: 'Olá! Vim pelo site da Cloe e gostaria de saber mais sobre os serviços de limpeza.',
 
   instagramUrl: 'https://www.instagram.com/cloeservicosdelimpeza',
-  facebookUrl: 'https://facebook.com/cloelimpeza',
+  facebookUrl: 'https://facebook.com/cloeservicosdelimpeza',
 
   displayPhone: '(16) 99426-0894',
   telLink: 'tel:+5516994260894',

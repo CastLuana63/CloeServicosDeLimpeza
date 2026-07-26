@@ -339,7 +339,7 @@
 
         <div class="antes-depois-grid">
 
-          <article class="card card-videos" data-reveal>
+          <!-- <article class="card card-videos" data-reveal>
             <div class="card-head">
               <h3>Vídeos: antes e depois</h3>
               <p>Deslize para o lado para ver mais trabalhos</p>
@@ -357,7 +357,6 @@
 
                 <div class="video-slide" data-carousel-slide>
                   <div class="video-frame" data-video-frame>
-                    <!-- SUBSTITUA: troque o arquivo assets/video/antes-depois-1.mp4 pelo seu vídeo -->
                     <video class="video-el" controls preload="metadata" poster="assets/poster-video-1.svg" playsinline>
                       <source src="assets/antes-depois-1.mp4" type="video/mp4">
                       Seu navegador não oferece suporte à reprodução de vídeo.
@@ -393,7 +392,7 @@
             </div>
 
             <div class="carousel-dots" data-carousel-dots></div>
-          </article>
+          </article> -->
 
           <article class="card card-compare" data-reveal>
             <div class="card-head">
@@ -406,6 +405,34 @@
                 <img class="compare-img compare-after" src="assets/depois_sala.jpeg"
                   alt="Ambiente depois da limpeza Cloe">
                 <img class="compare-img compare-before" data-compare-before src="assets/antes_sala.jpeg"
+                  alt="Mesmo ambiente antes da limpeza Cloe">
+                <div class="compare-divider" data-compare-divider>
+                  <span class="compare-handle">
+                    <svg class="icon" aria-hidden="true">
+                      <use href="#icon-drag"></use>
+                    </svg>
+                  </span>
+                </div>
+                <span class="compare-tag tag-before">Antes</span>
+                <span class="compare-tag tag-after">Depois</span>
+              </div>
+
+              <input type="range" class="compare-range" data-compare-range min="0" max="100" value="50"
+                aria-label="Arraste para comparar a foto de antes e depois da limpeza">
+            </div>
+          </article>
+
+          <article class="card card-compare" data-reveal>
+            <div class="card-head">
+              <h3>Fotos: antes e depois</h3>
+              <p>Arraste o controle para comparar</p>
+            </div>
+
+            <div class="compare" data-compare>
+              <div class="compare-frame" data-compare-frame>
+                <img class="compare-img compare-after" src="assets/depois_sala2.jpeg"
+                  alt="Ambiente depois da limpeza Cloe">
+                <img class="compare-img compare-before" data-compare-before src="assets/antes_sala2.jpeg"
                   alt="Mesmo ambiente antes da limpeza Cloe">
                 <div class="compare-divider" data-compare-divider>
                   <span class="compare-handle">
